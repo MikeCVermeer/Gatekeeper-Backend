@@ -1,0 +1,11 @@
+Libraries used:
+
+Cryptography
+Fernet
+Image
+qrcode
+Pillow
+django-cors-headers
+dj-rest-auth
+django-allauth
+djangorestframework-simplejwt
