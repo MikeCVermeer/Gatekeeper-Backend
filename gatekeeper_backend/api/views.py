@@ -19,6 +19,8 @@ from rest_framework.parsers import MultiPartParser, FormParser
 import json
 from rest_framework import permissions
 
+# Copyright © 2023, Mike Vermeer & Guido Erdtsieck, All rights reserved.
+
 
 # These are views(functions) which are ran when the frontend calls their specified paths(in urls.py)
 # They are called by the frontend using the axios library

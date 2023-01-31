@@ -1,6 +1,8 @@
 from django.urls import path, include
 from . import views
 
+# Copyright © 2023, Mike Vermeer & Guido Erdtsieck, All rights reserved.
+
 # These are the paths which the frontend calls
 # They are called by the frontend using the axios library
 

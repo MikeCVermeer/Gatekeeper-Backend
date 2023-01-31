@@ -6,6 +6,7 @@ from .models import Event
 #With list_display u can configure which fields should be shown when looking at a list of records in the User table
 #This class edits the admin panel so it also shows our custom fields. this happens at 'fields'
 
+# Copyright © 2023, Mike Vermeer & Guido Erdtsieck, All rights reserved.
 
 class CustomUserAdmin(UserAdmin):
     list_display = ('username', 'email', 'first_name', 'last_name', 'id')

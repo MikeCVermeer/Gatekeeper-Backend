@@ -3,6 +3,7 @@ import random, string
 import qrcode
 from cryptography.fernet import Fernet
 
+# Copyright © 2023, Mike Vermeer & Guido Erdtsieck, All rights reserved.
 
 # QrCodeGenerator takes the request from the frontend and generates a unique code for the user.
 # It then saves the code in the database.

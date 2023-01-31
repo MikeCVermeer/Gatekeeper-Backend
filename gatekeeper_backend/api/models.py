@@ -1,6 +1,8 @@
 from django.db import models
 from django.contrib.auth.models import AbstractUser
 
+# Copyright © 2023, Mike Vermeer & Guido Erdtsieck, All rights reserved.
+
 #This is the model for our Database Images.
 #This is a custom user model which inherits most of its fields from the default UserModel created by Django.
 #Importing and using the AbstractUser 'functions' make this possible.

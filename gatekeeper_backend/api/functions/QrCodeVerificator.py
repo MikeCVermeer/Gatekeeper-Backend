@@ -7,6 +7,8 @@ from binascii import Error
 from cryptography import *
 import cryptography
 
+# Copyright © 2023, Mike Vermeer & Guido Erdtsieck, All rights reserved.
+
 # QrCodeVerificator takes the request from the frontend and decrypts the encrypted qr data.
 # It then checks if the decrypted qr data matches the qr data of the user in the database.
 # If the qr data matches the user in the database, it checks if the user is invited to the event.

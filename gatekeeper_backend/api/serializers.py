@@ -4,6 +4,7 @@ from .models import Event
 from .models import Image
 from dj_rest_auth.registration.serializers import RegisterSerializer
 
+# Copyright © 2023, Mike Vermeer & Guido Erdtsieck, All rights reserved.
 
 # this code serializes our model so it can be show in a readable format. you can configure which fields to serialize
 # and how they are serialized
